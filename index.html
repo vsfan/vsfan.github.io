@@ -38,38 +38,35 @@
 
 	<!-- header 
    ================================================== -->
-	<header>
-		<div class="row">
 
-			<div class="top-bar">
-				<a class="menu-toggle" href="#">
-					<span>Menu</span>
-				</a>
-
-
-				<nav id="main-nav-wrap">
-					<ul class="main-navigation">
-						<li class="current">
-							<a class="smoothscroll" href="#intro" title="">Home</a>
-						</li>
-						<li>
-							<a class="smoothscroll" href="#about" title="">About</a>
-						</li>
-						<li>
-							<a class="smoothscroll" href="#resume" title="">Resume</a>
-						</li>
-						<li>
-							<a class="smoothscroll" href="#contact" title="">Contact</a>
-						</li>
-					</ul>
-				</nav>
-			</div>
-			<!-- /top-bar -->
-
+<header role="banner">
+	<div class="row">
+		<div class="top-bar">
+			<button class="menu-toggle" aria-controls="main-nav-wrap" aria-expanded="false" aria-label="Toggle menu">
+				<span>Menu</span>
+			</button>
+			<nav id="main-nav-wrap" role="navigation" aria-label="Main Navigation">
+				<ul class="main-navigation">
+					<li class="current">
+						<a class="smoothscroll" href="#intro" title="Home" tabindex="0">Home</a>
+					</li>
+					<li>
+						<a class="smoothscroll" href="#about" title="About" tabindex="0">About</a>
+					</li>
+					<li>
+						<a class="smoothscroll" href="#resume" title="Resume" tabindex="0">Resume</a>
+					</li>
+					<li>
+						<a class="smoothscroll" href="#contact" title="Contact" tabindex="0">Contact</a>
+					</li>
+				</ul>
+			</nav>
 		</div>
-		<!-- /row -->
-	</header>
-	<!-- /header -->
+		<!-- /top-bar -->
+	</div>
+	<!-- /row -->
+</header>
+<!-- /header -->
 
 	<!-- intro section
    ================================================== -->
